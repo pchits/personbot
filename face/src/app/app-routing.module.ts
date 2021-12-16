@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { MindComponent } from './mind/mind.component';
+import { MindComponent } from './controllers/mind/mind.component';
 
 const routes: Routes = [
   { path: '', component: MindComponent }

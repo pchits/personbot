@@ -3,7 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MindComponent } from './mind/mind.component';
+
+import { MindService } from './shared/mind.service';
+
+import { MindComponent } from './controllers/mind/mind.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,9 @@ import { MindComponent } from './mind/mind.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    MindService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { MindComponent } from './mind/mind.component';
+import { MindComponent } from './controllers/mind/mind.component';
 
 @Component({
   selector: 'app-root',
