@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { MindComponent } from './mind/mind.component';
+
+const routes: Routes = [
+  { path: '', component: MindComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
