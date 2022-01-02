@@ -1,7 +1,7 @@
 
 import constants
 
-class Mind:
+class Game:
 
     def __init__(self, world, mind, socium):
         
